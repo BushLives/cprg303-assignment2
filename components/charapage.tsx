@@ -1,11 +1,10 @@
-import { Stack } from "expo-router";
-import { StatusBar, StyleSheet } from "react-native";
+import { StatusBar, StyleSheet, View } from "react-native";
+const posts = [require("../assets/images/react-logo.png")];
+const ProfilePage = () => {
+  return <View></View>;
+};
 
-export default function RootLayout() {
-  <Stack screenOptions={{ headerShown: false }} />;
-
-  return;
-}
+export default ProfilePage;
 
 const styles = StyleSheet.create({
   container: {
